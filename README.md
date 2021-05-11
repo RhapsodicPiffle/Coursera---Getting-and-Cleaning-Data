@@ -25,16 +25,16 @@ Good luck!
 Since the instructions ask for only one script, run_analysis.R, this script will perform all of the analysis to complete this project. This script will perform the 5 main functions as outlined in the instructions, including my steps on how to obtain that objective. They are as follows:
 
   1. Merges the training and the test sets to create one data set.
-    A. Read training and test tables
-    B. Read activity and feature labels
-    C. Assign columns to data
-    D. Merge all data sets into one
+    * Read training and test tables
+    * Read activity and feature labels
+    * Assign columns to data
+    * Merge all data sets into one
   2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-    A. Create subset of data on the mean and standard deviation variables
+    * Create subset of data on the mean and standard deviation variables
   3. Uses descriptive activity names to name the activities in the data set
-    A. Create factors and assign to variable
+    * Create factors and assign to variable
   4. Appropriately labels the data set with descriptive variable names. 
-    A. Assign names to columns
+    * Assign names to columns
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-    A. Unpivot variables in order to calculate the mean
-    B. Pivot variables back into wide data structure
+    * Unpivot variables in order to calculate the mean
+    * Pivot variables back into wide data structure
